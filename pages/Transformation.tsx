@@ -1,63 +1,75 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-// Added Activity to imports
-import { CheckCircle2, Workflow, Target, TrendingUp, Search, Activity } from 'lucide-react';
+import { CheckCircle2, Workflow, Target, TrendingUp, Search, Activity, ChevronRight } from 'lucide-react';
 
 const Transformation: React.FC = () => {
   return (
     <div className="flex flex-col">
-      <section className="bg-slate-900 text-white py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Hero Section */}
+      <section className="relative h-[60vh] flex items-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://picsum.photos/seed/operational-control/1920/1080?grayscale" 
+            alt="Operational Control" 
+            className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-aramco-navy/90 via-aramco-navy/60 to-transparent"></div>
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
           <div className="max-w-3xl">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6">Operational Transformation Program</h1>
-            <p className="text-xl text-slate-400 font-light leading-relaxed">
-              Moving from "Management by Crisis" to "Management by System." A structured program for distributors seeking long-term control.
+            <span className="aramco-label text-white/60">Methodology</span>
+            <h1 className="text-4xl lg:text-7xl font-black text-white mb-8 leading-[0.9] uppercase tracking-tighter">Operational <br />Transformation</h1>
+            <p className="text-xl lg:text-2xl text-white/80 font-medium leading-relaxed">
+              Logic-Unit helps distribution and trading businesses redesign their operations, implement structured systems, and build long-term operational control.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="py-24 bg-white">
+      {/* Framework Section */}
+      <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
             <div>
-              <h2 className="text-3xl font-bold mb-8 text-slate-900">What is Operational Control?</h2>
-              <p className="text-slate-600 mb-6 leading-relaxed">
-                Operational control isn't about micro-management. It is about creating an environment where every transaction follows a predefined path, every error is caught by the system, and every executive has a clear view of the truth. Our <strong>custom erp software development services</strong> are designed to provide this exact level of control.
+              <span className="aramco-label">Our Approach</span>
+              <h2 className="text-4xl lg:text-5xl font-black mb-10 text-aramco-navy uppercase tracking-tighter leading-none">Operational <br />Transformation Framework</h2>
+              <p className="text-xl text-slate-600 mb-12 leading-relaxed font-medium">
+                Logic-Unit combines process engineering, ERP implementation, systems integration, workflow automation, and internal controls into one structured transformation program.
               </p>
-              <div className="space-y-6">
-                <div className="flex gap-4 p-6 bg-slate-50 border-l-4 border-blue-600">
-                  <Search className="text-blue-600 shrink-0" />
+              <div className="space-y-px bg-slate-200">
+                <div className="flex gap-8 p-12 bg-aramco-gray hover:bg-white transition-colors group">
+                  <Search className="text-aramco-teal shrink-0" size={32} />
                   <div>
-                    <h4 className="font-bold mb-1">Total Visibility</h4>
-                    <p className="text-sm text-slate-500">Know where every SKU is and what every branch is doing in real-time through a <strong>customized erp system</strong>.</p>
+                    <h4 className="text-xl font-black mb-4 text-aramco-navy uppercase tracking-widest">Process Engineering</h4>
+                    <p className="text-slate-600 leading-relaxed font-medium">Mapping inefficiencies and designing future-state workflows that support multi-branch scalability.</p>
                   </div>
                 </div>
-                <div className="flex gap-4 p-6 bg-slate-50 border-l-4 border-slate-900">
-                  <Workflow className="text-slate-900 shrink-0" />
+                <div className="flex gap-8 p-12 bg-aramco-gray hover:bg-white transition-colors group">
+                  <Workflow className="text-aramco-navy shrink-0" size={32} />
                   <div>
-                    <h4 className="font-bold mb-1">Standardized SOPs</h4>
-                    <p className="text-sm text-slate-500">Decisions are based on policy, enforced by <strong>customized erp software</strong>.</p>
+                    <h4 className="text-xl font-black mb-4 text-aramco-navy uppercase tracking-widest">Internal Controls</h4>
+                    <p className="text-slate-600 leading-relaxed font-medium">Building accountability and fraud prevention through role-based access and automated audit logs.</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="bg-slate-50 p-10 border border-slate-200">
-              <h3 className="text-2xl font-bold mb-8 text-slate-900">Program Deliverables</h3>
-              <ul className="space-y-6">
+            <div className="bg-aramco-gray p-16 border border-slate-100">
+              <h3 className="text-xs font-black mb-12 text-slate-400 uppercase tracking-[0.3em]">Framework Components</h3>
+              <ul className="space-y-10">
                 {[
-                  { title: 'Process Documentation', desc: 'A complete manual of redesigned workflows for your <strong>customized erp</strong>.' },
-                  { title: 'Inventory Control Design', desc: 'Lock-tight receiving and dispatch controls via <strong>custom erp feature development</strong>.' },
-                  { title: 'Role-Based Access Structure', desc: 'Ensuring data security across the organization with <strong>erp customization</strong>.' },
-                  { title: 'Executive Dashboards', desc: 'One screen to view entire business health built into your <strong>custom erp solution</strong>.' },
-                  { title: 'Workflow Automation', desc: 'Removing manual intervention in routine tasks through <strong>custom erp integration services</strong>.' },
+                  { title: 'Process Engineering', desc: 'Redesigning workflows for <strong>business process redesign</strong> and <strong>operational efficiency improvement</strong>.' },
+                  { title: 'ERP Configuration', desc: 'Configuring <strong>distribution ERP implementation</strong> around your standardized processes.' },
+                  { title: 'Workflow Automation', desc: 'Implementing <strong>automated approval systems</strong> to eliminate bottlenecks.' },
+                  { title: 'Internal Control Implementation', desc: 'Establishing <strong>internal control systems</strong> for governance and risk management.' },
+                  { title: 'Executive Reporting', desc: 'Building <strong>operational KPI dashboards</strong> for real-time business analytics.' },
                 ].map((item, idx) => (
-                  <li key={idx} className="flex items-start gap-4">
-                    <CheckCircle2 className="text-blue-600 mt-1" size={20} />
+                  <li key={idx} className="flex items-start gap-8">
+                    <CheckCircle2 className="text-aramco-teal mt-1 shrink-0" size={28} />
                     <div>
-                      <h4 className="font-bold text-slate-900" dangerouslySetInnerHTML={{ __html: item.title }}></h4>
-                      <p className="text-slate-500 text-sm" dangerouslySetInnerHTML={{ __html: item.desc }}></p>
+                      <h4 className="text-lg font-black text-aramco-navy mb-2 uppercase tracking-tighter" dangerouslySetInnerHTML={{ __html: item.title }}></h4>
+                      <p className="text-slate-500 leading-relaxed font-medium text-sm" dangerouslySetInnerHTML={{ __html: item.desc }}></p>
                     </div>
                   </li>
                 ))}
@@ -67,19 +79,107 @@ const Transformation: React.FC = () => {
         </div>
       </section>
 
-      {/* Transformation Roadmap Infographic */}
-      <section className="py-24 bg-slate-50">
+      {/* Detailed Sections */}
+      <section className="py-32 bg-aramco-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">The Transformation Roadmap</h2>
-            <p className="text-slate-500 max-w-2xl mx-auto">Our proven 5-step methodology for implementing <strong>custom erp development services</strong>.</p>
+          <div className="text-center mb-20">
+            <span className="aramco-label mx-auto">Deep Dive</span>
+            <h2 className="text-4xl lg:text-6xl font-black text-aramco-navy uppercase tracking-tighter">Operational Architecture</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-slate-200">
+            {/* Process Engineering */}
+            <div className="bg-white p-16 hover:bg-aramco-teal group transition-colors">
+              <h3 className="text-2xl font-black mb-8 text-aramco-navy group-hover:text-white uppercase tracking-tighter">1. Process Engineering</h3>
+              <p className="text-slate-600 group-hover:text-white/80 mb-10 leading-relaxed font-medium">
+                Before introducing structure, we deeply understand your current operations. We map purchasing decisions, inventory movement, sales approvals, and financial validation.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Remove Duplication</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Clarify Responsibilities</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Reduce Approval Layers</li>
+                </ul>
+                <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Strengthen Accountability</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Support Scale</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Define Future SOPs</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Systems Aligned to Process */}
+            <div className="bg-white p-16 hover:bg-aramco-teal group transition-colors">
+              <h3 className="text-2xl font-black mb-8 text-aramco-navy group-hover:text-white uppercase tracking-tighter">2. Systems Aligned to Process</h3>
+              <p className="text-slate-600 group-hover:text-white/80 mb-10 leading-relaxed font-medium">
+                Systems should reflect business logic, not distort it. We configure operational systems to ensure decisions become consistent and information becomes trustworthy.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Multi-branch Control</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Real-time Accuracy</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Structured Approval</li>
+                </ul>
+                <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Controlled Access</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Automated Validation</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Data Consistency</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Workflow Automation */}
+            <div className="bg-white p-16 hover:bg-aramco-teal group transition-colors">
+              <h3 className="text-2xl font-black mb-8 text-aramco-navy group-hover:text-white uppercase tracking-tighter">3. Workflow Automation</h3>
+              <p className="text-slate-600 group-hover:text-white/80 mb-10 leading-relaxed font-medium">
+                Manual workflows create dependency and delay. We design structured flows that ensure discipline without micromanagement, removing daily friction.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Follow Policy Automatically</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Escalate Intelligently</li>
+                </ul>
+                <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Reduce Involvement</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Traceable Records</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Internal Controls */}
+            <div className="bg-white p-16 hover:bg-aramco-teal group transition-colors">
+              <h3 className="text-2xl font-black mb-8 text-aramco-navy group-hover:text-white uppercase tracking-tighter">4. Internal Controls</h3>
+              <p className="text-slate-600 group-hover:text-white/80 mb-10 leading-relaxed font-medium">
+                Growth introduces risk. Internal control is not about restriction; it is about protection of inventory, margins, and leadership time.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Segregation of Duties</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Role-based Permissions</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Validation Checks</li>
+                </ul>
+                <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Audit-ready Logs</li>
+                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Exception Monitoring</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Transformation Roadmap */}
+      <section className="py-32 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-24">
+            <span className="aramco-label mx-auto">The Process</span>
+            <h2 className="text-4xl lg:text-5xl font-black text-aramco-navy mb-6 uppercase tracking-tighter">The Transformation Roadmap</h2>
+            <p className="text-xl text-slate-500 max-w-2xl mx-auto font-medium">Our proven 5-step methodology for implementing <strong>custom erp development services</strong>.</p>
           </div>
           
           <div className="relative">
-            {/* Desktop Connector Line */}
-            <div className="absolute top-1/2 left-0 w-full h-0.5 bg-slate-200 -translate-y-1/2 hidden lg:block"></div>
+            <div className="absolute top-1/2 left-0 w-full h-px bg-slate-200 -translate-y-1/2 hidden lg:block"></div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-px bg-slate-200 relative z-10">
               {[
                 { step: '01', title: 'Audit', desc: 'Diagnostic of current operational gaps and risks.' },
                 { step: '02', title: 'Design', desc: 'Mapping future-state SOPs and <strong>erp customization</strong> needs.' },
@@ -87,12 +187,12 @@ const Transformation: React.FC = () => {
                 { step: '04', title: 'Deploy', desc: 'System rollout and <strong>custom erp training</strong>.' },
                 { step: '05', title: 'Govern', desc: 'Ongoing optimization and system audits.' },
               ].map((item, i) => (
-                <div key={i} className="bg-white p-8 border border-slate-200 text-center hover:shadow-lg transition-shadow">
-                  <div className="w-12 h-12 bg-slate-900 text-white flex items-center justify-center mx-auto mb-6 font-bold rounded-full border-4 border-white shadow-lg">
+                <div key={i} className="bg-white p-12 text-center hover:bg-aramco-gray transition-colors group">
+                  <div className="w-20 h-20 bg-aramco-navy text-white flex items-center justify-center mx-auto mb-10 font-black text-2xl group-hover:bg-aramco-teal transition-colors">
                     {item.step}
                   </div>
-                  <h4 className="font-bold text-slate-900 mb-2">{item.title}</h4>
-                  <p className="text-xs text-slate-500 leading-relaxed" dangerouslySetInnerHTML={{ __html: item.desc }}></p>
+                  <h4 className="text-lg font-black text-aramco-navy mb-4 uppercase tracking-widest">{item.title}</h4>
+                  <p className="text-sm text-slate-500 leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: item.desc }}></p>
                 </div>
               ))}
             </div>
@@ -100,28 +200,30 @@ const Transformation: React.FC = () => {
         </div>
       </section>
 
-      <section className="py-24 bg-slate-900 text-white">
+      {/* Measurable Impact */}
+      <section className="py-32 bg-aramco-navy text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-12">The Measurable Impact</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <span className="aramco-label text-white/40 mx-auto">Results</span>
+          <h2 className="text-4xl lg:text-6xl font-black mb-24 uppercase tracking-tighter">The Measurable Impact</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-24">
             <div>
-              <TrendingUp className="mx-auto mb-6 text-blue-400" size={48} />
-              <h4 className="text-4xl font-bold mb-2">30%</h4>
-              <p className="text-slate-400">Increase in warehouse throughput after process redesign.</p>
+              <TrendingUp className="mx-auto mb-10 text-aramco-teal" size={64} />
+              <h4 className="text-7xl font-black mb-6 text-white tracking-tighter">30%</h4>
+              <p className="text-slate-400 text-xl font-medium uppercase tracking-widest">Increase in <br />Warehouse Throughput</p>
             </div>
             <div>
-              <Target className="mx-auto mb-6 text-blue-400" size={48} />
-              <h4 className="text-4xl font-bold mb-2">99.8%</h4>
-              <p className="text-slate-400">Inventory accuracy achieved through systematic tracking.</p>
+              <Target className="mx-auto mb-10 text-aramco-teal" size={64} />
+              <h4 className="text-7xl font-black mb-6 text-white tracking-tighter">99.8%</h4>
+              <p className="text-slate-400 text-xl font-medium uppercase tracking-widest">Inventory Accuracy <br />Achieved</p>
             </div>
             <div>
-              <Activity className="mx-auto mb-6 text-blue-400" size={48} />
-              <h4 className="text-4xl font-bold mb-2">Zero</h4>
-              <p className="text-slate-400">Owner-dependence for day-to-day operational approvals.</p>
+              <Activity className="mx-auto mb-10 text-aramco-teal" size={64} />
+              <h4 className="text-7xl font-black mb-6 text-white tracking-tighter">ZERO</h4>
+              <p className="text-slate-400 text-xl font-medium uppercase tracking-widest">Owner-Dependence <br />for Approvals</p>
             </div>
           </div>
-          <div className="mt-20">
-            <Link to="/contact" className="bg-white text-slate-900 px-10 py-5 font-bold hover:bg-slate-100 transition-all rounded-sm inline-block">
+          <div className="mt-32">
+            <Link to="/contact" className="btn-aramco-primary text-lg px-12 py-6">
               Request Transformation Roadmap
             </Link>
           </div>

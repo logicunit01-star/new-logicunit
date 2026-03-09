@@ -33,90 +33,91 @@ const Contact: React.FC = () => {
 
   return (
     <div className="flex flex-col">
-      <section className="py-24 bg-white">
+      <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
             <div>
-              <h1 className="text-4xl font-bold text-slate-900 mb-6 italic">Operational Control Audit</h1>
-              <p className="text-lg text-slate-600 mb-12 font-light">
+              <span className="aramco-label">Contact Us</span>
+              <h1 className="text-5xl lg:text-7xl font-black text-aramco-navy mb-10 uppercase tracking-tighter leading-none">Operational <br />Control Audit</h1>
+              <p className="text-xl text-slate-600 mb-16 font-medium leading-relaxed">
                 Fill out the diagnostic form below to receive an initial executive assessment of your current operational risks and transformation priorities.
               </p>
 
-              <div className="space-y-8">
-                <div className="flex items-start gap-4">
-                  <div className="bg-slate-100 p-3 rounded-sm text-slate-600"><MapPin size={24} /></div>
+              <div className="space-y-12">
+                <div className="flex items-start gap-8">
+                  <div className="bg-aramco-gray p-6 text-aramco-navy"><MapPin size={32} /></div>
                   <div>
-                    <h4 className="font-bold">Main Office</h4>
-                    <p className="text-slate-500 text-sm">G-Block, Gulberg III, Lahore, Pakistan</p>
+                    <h4 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400 mb-2">Main Office</h4>
+                    <p className="text-aramco-navy text-xl font-black uppercase tracking-tighter">G-Block, Gulberg III, Lahore, Pakistan</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <div className="bg-slate-100 p-3 rounded-sm text-slate-600"><Mail size={24} /></div>
+                <div className="flex items-start gap-8">
+                  <div className="bg-aramco-gray p-6 text-aramco-navy"><Mail size={32} /></div>
                   <div>
-                    <h4 className="font-bold">Inquiries</h4>
-                    <p className="text-slate-500 text-sm">advisory@logicunit.com</p>
+                    <h4 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400 mb-2">Inquiries</h4>
+                    <p className="text-aramco-navy text-xl font-black uppercase tracking-tighter">advisory@logicunit.com</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <div className="bg-slate-100 p-3 rounded-sm text-slate-600"><Phone size={24} /></div>
+                <div className="flex items-start gap-8">
+                  <div className="bg-aramco-gray p-6 text-aramco-navy"><Phone size={32} /></div>
                   <div>
-                    <h4 className="font-bold">Direct Line</h4>
-                    <p className="text-slate-500 text-sm">+92 (0) 42 35XX XXXX</p>
+                    <h4 className="text-xs font-black uppercase tracking-[0.3em] text-slate-400 mb-2">Direct Line</h4>
+                    <p className="text-aramco-navy text-xl font-black uppercase tracking-tighter">+92 (0) 42 35XX XXXX</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-slate-50 border border-slate-200 p-10 relative">
+            <div className="bg-aramco-gray p-12 lg:p-16 relative">
               {result ? (
                 <div className="animate-in fade-in duration-500">
-                  <div className="flex items-center gap-3 mb-6 text-green-600">
-                    <CheckCircle2 size={32} />
-                    <h3 className="text-2xl font-bold">Initial Audit Complete</h3>
+                  <div className="flex items-center gap-4 mb-10 text-aramco-teal">
+                    <CheckCircle2 size={48} />
+                    <h3 className="text-3xl font-black uppercase tracking-tighter">Audit Complete</h3>
                   </div>
-                  <div className="space-y-6">
-                    <div className="bg-white p-6 border border-slate-100 shadow-sm">
-                      <h4 className="text-xs uppercase tracking-widest text-slate-400 mb-2 font-bold">Executive Summary</h4>
-                      <p className="text-slate-800 leading-relaxed italic">"{result.riskAssessment}"</p>
+                  <div className="space-y-8">
+                    <div className="bg-white p-10 border border-slate-200">
+                      <h4 className="text-[10px] uppercase tracking-[0.3em] text-slate-400 mb-4 font-black">Executive Summary</h4>
+                      <p className="text-aramco-navy text-lg leading-relaxed font-medium italic">"{result.riskAssessment}"</p>
                     </div>
                     <div>
-                      <h4 className="text-xs uppercase tracking-widest text-slate-400 mb-4 font-bold">Key Focus Areas</h4>
-                      <ul className="space-y-2">
+                      <h4 className="text-[10px] uppercase tracking-[0.3em] text-slate-400 mb-6 font-black">Key Focus Areas</h4>
+                      <ul className="space-y-3">
                         {result.keyRecommendations.map((rec, i) => (
-                          <li key={i} className="text-sm text-slate-700 bg-slate-200/50 p-3 border-l-2 border-slate-900">{rec}</li>
+                          <li key={i} className="text-sm font-black uppercase tracking-widest text-white bg-aramco-navy p-6">{rec}</li>
                         ))}
                       </ul>
                     </div>
-                    <div className="p-4 bg-slate-900 text-white text-center">
-                      <p className="text-xs mb-2 uppercase tracking-tighter opacity-70">Strategic Priority</p>
-                      <p className="font-bold">{result.strategicPriority}</p>
+                    <div className="p-8 bg-aramco-teal text-white text-center">
+                      <p className="text-[10px] mb-3 uppercase tracking-[0.3em] font-black opacity-70">Strategic Priority</p>
+                      <p className="text-2xl font-black uppercase tracking-tighter">{result.strategicPriority}</p>
                     </div>
                     <button 
                       onClick={() => setResult(null)}
-                      className="w-full text-slate-500 text-sm hover:underline"
+                      className="w-full text-slate-400 text-[10px] font-black uppercase tracking-[0.3em] hover:text-aramco-navy transition-colors"
                     >
                       Start a new audit
                     </button>
-                    <p className="text-xs text-slate-400 text-center">Our team will contact you at {form.email} for a full consultation.</p>
+                    <p className="text-xs text-slate-400 text-center font-medium">Our team will contact you at {form.email} for a full consultation.</p>
                   </div>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="flex flex-col gap-1.5">
-                      <label className="text-xs font-bold uppercase text-slate-500">Company Name</label>
+                <form onSubmit={handleSubmit} className="space-y-8">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    <div className="flex flex-col gap-3">
+                      <label className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">Company Name</label>
                       <input 
                         required
-                        className="bg-white border border-slate-200 px-4 py-3 text-sm focus:outline-none focus:border-blue-600"
+                        className="bg-white border border-slate-200 px-6 py-4 text-sm font-medium focus:outline-none focus:border-aramco-teal transition-colors"
                         placeholder="Logic Unit Co."
                         value={form.companyName}
                         onChange={(e) => setForm({...form, companyName: e.target.value})}
                       />
                     </div>
-                    <div className="flex flex-col gap-1.5">
-                      <label className="text-xs font-bold uppercase text-slate-500">Industry</label>
+                    <div className="flex flex-col gap-3">
+                      <label className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">Industry</label>
                       <select 
-                        className="bg-white border border-slate-200 px-4 py-3 text-sm focus:outline-none focus:border-blue-600"
+                        className="bg-white border border-slate-200 px-6 py-4 text-sm font-medium focus:outline-none focus:border-aramco-teal transition-colors appearance-none"
                         value={form.industry}
                         onChange={(e) => setForm({...form, industry: e.target.value})}
                       >
@@ -129,10 +130,10 @@ const Contact: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-xs font-bold uppercase text-slate-500">Business Size</label>
+                  <div className="flex flex-col gap-3">
+                    <label className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">Business Size</label>
                     <select 
-                      className="bg-white border border-slate-200 px-4 py-3 text-sm focus:outline-none focus:border-blue-600"
+                      className="bg-white border border-slate-200 px-6 py-4 text-sm font-medium focus:outline-none focus:border-aramco-teal transition-colors appearance-none"
                       value={form.businessSize}
                       onChange={(e) => setForm({...form, businessSize: e.target.value})}
                     >
@@ -143,32 +144,32 @@ const Contact: React.FC = () => {
                     </select>
                   </div>
 
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-xs font-bold uppercase text-slate-500">Current System</label>
+                  <div className="flex flex-col gap-3">
+                    <label className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">Current System</label>
                     <input 
-                      className="bg-white border border-slate-200 px-4 py-3 text-sm focus:outline-none focus:border-blue-600"
+                      className="bg-white border border-slate-200 px-6 py-4 text-sm font-medium focus:outline-none focus:border-aramco-teal transition-colors"
                       placeholder="e.g., Tally, Excel, Quickbooks"
                       value={form.currentSystem}
                       onChange={(e) => setForm({...form, currentSystem: e.target.value})}
                     />
                   </div>
 
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-xs font-bold uppercase text-slate-500">Main Operational Challenge</label>
+                  <div className="flex flex-col gap-3">
+                    <label className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">Main Operational Challenge</label>
                     <textarea 
-                      className="bg-white border border-slate-200 px-4 py-3 text-sm focus:outline-none focus:border-blue-600 h-24 resize-none"
+                      className="bg-white border border-slate-200 px-6 py-4 text-sm font-medium focus:outline-none focus:border-aramco-teal transition-colors h-32 resize-none"
                       placeholder="e.g., Inventory mismatches, branch reporting delays..."
                       value={form.mainChallenge}
                       onChange={(e) => setForm({...form, mainChallenge: e.target.value})}
                     />
                   </div>
 
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-xs font-bold uppercase text-slate-500">Work Email</label>
+                  <div className="flex flex-col gap-3">
+                    <label className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">Work Email</label>
                     <input 
                       type="email"
                       required
-                      className="bg-white border border-slate-200 px-4 py-3 text-sm focus:outline-none focus:border-blue-600"
+                      className="bg-white border border-slate-200 px-6 py-4 text-sm font-medium focus:outline-none focus:border-aramco-teal transition-colors"
                       placeholder="executive@company.com"
                       value={form.email}
                       onChange={(e) => setForm({...form, email: e.target.value})}
@@ -178,9 +179,9 @@ const Contact: React.FC = () => {
                   <button 
                     disabled={loading}
                     type="submit"
-                    className="w-full bg-slate-900 text-white font-bold py-4 hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
+                    className="w-full bg-aramco-navy text-white font-black uppercase tracking-widest py-6 hover:bg-aramco-teal transition-all flex items-center justify-center gap-3"
                   >
-                    {loading ? <Loader2 className="animate-spin" size={20} /> : 'Process Audit Request'}
+                    {loading ? <Loader2 className="animate-spin" size={24} /> : 'Process Audit Request'}
                   </button>
                 </form>
               )}

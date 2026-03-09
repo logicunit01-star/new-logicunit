@@ -1,334 +1,380 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-// Added ArrowRight to imports
-import { ChevronRight, BarChart3, Database, Workflow, ShieldCheck, Activity, Users, ArrowRight } from 'lucide-react';
+import { ChevronRight, CheckCircle2, XCircle, ArrowRight, BarChart3, Database, Workflow, ShieldCheck, Activity } from 'lucide-react';
 
 const Home: React.FC = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative bg-white pt-24 pb-32 lg:pt-40 lg:pb-52 overflow-hidden border-b border-slate-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 leading-[1.1] mb-8 tracking-tight">
-              From Operational Chaos to <span className="text-blue-600">Structured Control</span>
+      <section className="relative h-[90vh] flex items-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://picsum.photos/seed/industrial/1920/1080?grayscale" 
+            alt="Industrial Operations" 
+            className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-aramco-navy/90 via-aramco-navy/60 to-transparent"></div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+          <div className="max-w-4xl">
+            <span className="aramco-label text-white/80">Operational Transformation Partner</span>
+            <h1 className="text-5xl lg:text-8xl font-black text-white leading-[0.9] mb-8 tracking-tighter uppercase">
+              From Operational Chaos <br /> <span className="text-aramco-teal">to Structured Control</span>
             </h1>
-            <p className="text-xl text-slate-600 mb-10 leading-relaxed font-light">
-              We help growing distribution and trading businesses redesign their operations, implement structured systems, and build long-term operational control.
+            <p className="text-xl lg:text-2xl text-white/80 mb-10 leading-relaxed font-medium max-w-2xl">
+              ERP & Operational Systems for Distribution and Trading Businesses
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                to="/contact"
-                className="bg-slate-900 text-white px-8 py-4 text-center font-medium hover:bg-slate-800 transition-all rounded-sm flex items-center justify-center gap-2"
-              >
-                Book Operational Audit <ChevronRight size={18} />
+            <div className="flex flex-col sm:flex-row gap-6">
+              <Link to="/contact" className="btn-aramco-primary">
+                Begin Transformation
               </Link>
-              <Link
-                to="/contact"
-                className="border border-slate-200 text-slate-900 px-8 py-4 text-center font-medium hover:bg-slate-50 transition-all rounded-sm"
-              >
-                Schedule Executive Consultation
+              <Link to="/experience" className="btn-aramco-outline border-white text-white hover:bg-white hover:text-aramco-navy">
+                Our Experience
               </Link>
             </div>
           </div>
         </div>
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-slate-50 -z-10 hidden lg:block"></div>
       </section>
 
-      {/* Problem Section */}
-      <section className="py-24 bg-slate-50">
+      {/* Intro Section: Growth Stress */}
+      <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-start">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-                When Growth Creates Operational Stress
+              <span className="aramco-label">The Reality of Growth</span>
+              <h2 className="text-4xl lg:text-6xl font-black text-aramco-navy mb-10 uppercase tracking-tighter leading-none">
+                Growth should <br />create leverage.
               </h2>
-              <p className="text-lg text-slate-600 mb-8 font-light">
-                Rapid expansion often outpaces internal controls. Systems that worked at 5 employees break at 50.
+              <p className="text-2xl text-slate-600 mb-12 leading-relaxed font-medium">
+                But for most distribution and trading companies, growth creates stress.
               </p>
-              <ul className="space-y-4 mb-8">
-                {[
-                  'Inaccurate inventory and frequent mismatches',
-                  'Heavy dependence on fragile Excel spreadsheets',
-                  'Manual approval workflows causing delays',
-                  'Lack of real-time visibility into branch operations',
-                  'Owner-dependent decision making as a bottleneck'
-                ].map((item, idx) => (
-                  <li key={idx} className="flex items-start gap-3 text-slate-700">
-                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <p className="text-slate-900 font-semibold text-lg italic border-l-4 border-blue-600 pl-4">
-                "The issue is not growth. The issue is lack of operational structure."
-              </p>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white p-8 border border-slate-200 shadow-sm">
-                <p className="text-4xl font-bold text-slate-900 mb-2">90%</p>
-                <p className="text-sm text-slate-500 uppercase tracking-wider">Of SMEs rely on Excel for Core Data</p>
+              <div className="space-y-4 text-lg text-slate-500 font-medium">
+                <p>Inventory errors increase.</p>
+                <p>Approvals slow down.</p>
+                <p>Excel files multiply.</p>
+                <p>Branches operate differently.</p>
+                <p>And the owner becomes the control center for everything.</p>
               </div>
-              <div className="bg-white p-8 border border-slate-200 shadow-sm mt-8">
-                <p className="text-4xl font-bold text-slate-900 mb-2">45%</p>
-                <p className="text-sm text-slate-500 uppercase tracking-wider">Inventory shrinkage due to weak controls</p>
+            </div>
+            
+            <div className="bg-aramco-gray p-16 border-l-8 border-aramco-teal">
+              <h3 className="text-3xl font-black text-aramco-navy uppercase tracking-tighter leading-none mb-8">
+                The problem is not growth. <br />The problem is lack of operational structure.
+              </h3>
+              <p className="text-xl text-slate-600 leading-relaxed font-medium mb-10">
+                At Logic-Unit, we redesign operations for growing distribution and trading businesses. We implement structured systems, configure ERP correctly, automate workflows, and build internal controls that create long-term operational clarity.
+              </p>
+              <div className="pt-8 border-t border-slate-200">
+                <p className="text-sm font-black text-aramco-teal uppercase tracking-[0.3em]">Software is not the goal. Control is.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Positioning Section */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6 max-w-3xl mx-auto">
-            Expert Custom ERP Software Development Company
-          </h2>
-          <p className="text-lg text-slate-600 mb-12 max-w-4xl mx-auto font-light leading-relaxed">
-            Logic Unit combines process redesign, <strong>custom erp development services</strong>, workflow automation, and executive reporting into a structured transformation program. We are a <strong>custom erp software development company</strong> that believes software is just a tool; <strong>operational control is the objective</strong>.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-8 border border-slate-100 bg-slate-50 text-left">
-              <Workflow className="text-blue-600 mb-6" size={32} />
-              <h3 className="text-xl font-bold mb-4">Process Engineering</h3>
-              <p className="text-slate-600 text-sm leading-relaxed">
-                We map your current inefficiencies and design future-state workflows that scale.
-              </p>
-            </div>
-            <div className="p-8 border border-slate-100 bg-slate-50 text-left">
-              <Database className="text-blue-600 mb-6" size={32} />
-              <h3 className="text-xl font-bold mb-4">Custom ERP Solutions</h3>
-              <p className="text-slate-600 text-sm leading-relaxed">
-                Our <strong>custom erp integration services</strong> ensure your systems mirror your redesigned processes, not the other way around.
-              </p>
-            </div>
-            <div className="p-8 border border-slate-100 bg-slate-50 text-left">
-              <ShieldCheck className="text-blue-600 mb-6" size={32} />
-              <h3 className="text-xl font-bold mb-4">ERP Customization</h3>
-              <p className="text-slate-600 text-sm leading-relaxed">
-                Implementing role-based access, automated audits, and <strong>erp customization services</strong> for long-term control.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* EEAT / Trust Section */}
-      <section className="py-24 bg-slate-50 border-y border-slate-100">
+      {/* Who We Serve */}
+      <section className="py-32 bg-aramco-navy text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">Built on Experience & Expertise</h2>
-              <p className="text-lg text-slate-600 mb-8 font-light">
-                Our authority in <strong>custom erp software development</strong> comes from years of hands-on operational management. We don't just write code; we understand the "Cash Cycle Gap" that kills distribution businesses.
-              </p>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="flex flex-col gap-2">
-                  <span className="text-3xl font-bold text-slate-900">15+</span>
-                  <span className="text-xs uppercase tracking-widest text-slate-500 font-bold">Years Experience</span>
-                </div>
-                <div className="flex flex-col gap-2">
-                  <span className="text-3xl font-bold text-slate-900">50+</span>
-                  <span className="text-xs uppercase tracking-widest text-slate-500 font-bold">Systems Deployed</span>
-                </div>
-                <div className="flex flex-col gap-2">
-                  <span className="text-3xl font-bold text-slate-900">100%</span>
-                  <span className="text-xs uppercase tracking-widest text-slate-500 font-bold">Client Retention</span>
-                </div>
-                <div className="flex flex-col gap-2">
-                  <span className="text-3xl font-bold text-slate-900">Zero</span>
-                  <span className="text-xs uppercase tracking-widest text-slate-500 font-bold">Failed Projects</span>
-                </div>
-              </div>
-            </div>
-            <div className="bg-slate-900 p-12 text-white relative overflow-hidden">
-              <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-6">The Logic Unit Promise</h3>
-                <p className="text-slate-400 mb-8 italic">
-                  "We take full ownership of the system adoption. If your team doesn't use the <strong>customized erp system</strong> we built, we haven't finished our job."
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+             <div>
+                <span className="aramco-label text-white/40">Our Focus</span>
+                <h2 className="text-4xl lg:text-6xl font-black text-white mb-10 uppercase tracking-tighter leading-none">
+                  Who We Serve
+                </h2>
+                <p className="text-xl text-slate-400 mb-12 leading-relaxed font-medium">
+                  If your business is experiencing operational friction as you grow, we are built for you.
                 </p>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center font-bold">LU</div>
-                  <div>
-                    <p className="font-bold">Lead Advisory Team</p>
-                    <p className="text-xs text-slate-500 uppercase tracking-widest">Logic Unit Private Limited</p>
-                  </div>
+                <div className="grid grid-cols-1 gap-4">
+                  {[
+                    'Distribution companies managing multi-location inventory',
+                    'Trading businesses handling procurement and resale',
+                    'Wholesale operations struggling with stock accuracy',
+                    'Owner-led businesses scaling beyond 20–50 employees',
+                    'Companies replacing Excel-based systems with structured ERP'
+                  ].map((point, i) => (
+                    <div key={i} className="flex items-center gap-6 bg-white/5 p-6 border-l-4 border-aramco-teal">
+                      <div className="w-8 h-8 bg-white/10 text-aramco-teal flex items-center justify-center shrink-0">
+                        <ChevronRight size={16} />
+                      </div>
+                      <span className="text-sm font-black uppercase tracking-widest text-white">{point}</span>
+                    </div>
+                  ))}
                 </div>
-              </div>
-              <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/10 rounded-full -mr-32 -mt-32"></div>
-            </div>
+             </div>
+             <div className="relative aspect-square bg-white/5 overflow-hidden">
+                <img 
+                  src="https://picsum.photos/seed/warehouse-ops/1000/1000?grayscale" 
+                  alt="Warehouse Operation" 
+                  className="w-full h-full object-cover opacity-50" 
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-aramco-navy/40"></div>
+             </div>
           </div>
         </div>
       </section>
 
-      {/* Detailed Infographic: Custom vs Off-the-shelf */}
-      <section className="py-24 bg-white">
+      {/* What Actually Breaks */}
+      <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Why Distribution Leaders Choose Custom ERP Solutions</h2>
-            <p className="text-slate-500 max-w-2xl mx-auto">Standard software is built for everyone. Our <strong>customized erp software</strong> is built for you.</p>
+          <div className="text-center mb-24">
+            <span className="aramco-label mx-auto">The Breaking Point</span>
+            <h2 className="text-4xl lg:text-6xl font-black text-aramco-navy mb-8 uppercase tracking-tighter">What Actually Breaks When <br />Distribution Companies Grow</h2>
+            <p className="text-xl text-slate-500 max-w-3xl mx-auto font-medium">
+              At 5 employees, informal systems work. At 50 employees, they collapse.
+            </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="p-8 bg-slate-50 border border-slate-100">
-              <h4 className="text-xl font-bold mb-6 flex items-center gap-3">
-                <span className="w-8 h-8 bg-slate-900 text-white flex items-center justify-center text-sm">X</span>
-                The Standard Software Trap
-              </h4>
-              <ul className="space-y-4 text-sm text-slate-600">
-                <li className="flex items-start gap-3">
-                  <span className="text-red-500 font-bold">!</span>
-                  <span>Rigid workflows that force you to change your successful SOPs.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-red-500 font-bold">!</span>
-                  <span>Expensive per-user licensing that punishes your growth.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-red-500 font-bold">!</span>
-                  <span>Generic reporting that doesn't show the "real" truth of your branches.</span>
-                </li>
-              </ul>
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-px bg-slate-200">
+            {[
+              { title: "Inventory Mismatches", desc: "Stock numbers in the system don’t match physical reality. Adjustments become normal." },
+              { title: "Excel Dependency", desc: "Critical data lives in spreadsheets owned by individuals. Version control becomes impossible." },
+              { title: "Manual Approval Bottlenecks", desc: "Purchase approvals sit in inboxes. Orders wait for sign-offs." },
+              { title: "No Real-Time Branch Visibility", desc: "Head office doesn’t know what’s happening daily." },
+              { title: "Owner-Dependent Decisions", desc: "Every exception requires escalation. Strategic work is replaced by operational firefighting." }
+            ].map((item, idx) => (
+              <div key={idx} className="bg-white p-12 hover:bg-aramco-gray transition-colors group">
+                <span className="text-5xl font-black text-slate-100 mb-8 block group-hover:text-aramco-teal transition-colors">0{idx + 1}</span>
+                <h4 className="text-lg font-black text-aramco-navy mb-4 uppercase tracking-widest leading-tight">{item.title}</h4>
+                <p className="text-slate-500 text-sm leading-relaxed font-medium">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-24 bg-aramco-gray p-16 text-center">
+            <p className="text-3xl font-black text-aramco-navy uppercase tracking-tighter">These are structural issues. <br />Installing software without redesigning operations does not solve them.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Philosophy: Structure Before Software */}
+      <section className="py-32 bg-aramco-navy text-white overflow-hidden relative">
+        <div className="absolute top-0 right-0 w-1/2 h-full bg-aramco-teal/10 skew-x-12 transform translate-x-1/4"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+            <div>
+              <span className="aramco-label text-white/40">Our Philosophy</span>
+              <h2 className="text-4xl lg:text-6xl font-black text-white mb-10 uppercase tracking-tighter leading-none">
+                Structure <br />Before Software
+              </h2>
+              <p className="text-xl text-slate-400 mb-12 leading-relaxed font-medium">
+                Many ERP implementations fail because companies buy software first and ask questions later. We do the opposite. We start with structure.
+              </p>
+              <div className="space-y-8">
+                {[
+                  'Processes must be engineered before they are automated',
+                  'ERP must mirror business logic, not force artificial workflows',
+                  'Internal controls must be embedded into daily operations',
+                  'Reporting must support executive decision-making'
+                ].map((item, idx) => (
+                  <div key={idx} className="flex items-center gap-6">
+                    <div className="w-10 h-10 bg-aramco-teal text-white flex items-center justify-center shrink-0">
+                      <ArrowRight size={20} />
+                    </div>
+                    <span className="text-lg font-black uppercase tracking-widest text-white">{item}</span>
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="p-8 bg-blue-50 border border-blue-100">
-              <h4 className="text-xl font-bold mb-6 flex items-center gap-3 text-blue-900">
-                <span className="w-8 h-8 bg-blue-600 text-white flex items-center justify-center text-sm">✓</span>
-                The Logic Unit Advantage
-              </h4>
-              <ul className="space-y-4 text-sm text-blue-900/70">
-                <li className="flex items-start gap-3">
-                  <span className="text-blue-600 font-bold">✓</span>
-                  <span><strong>Customized erp solutions</strong> designed specifically for your trading model.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-blue-600 font-bold">✓</span>
-                  <span>One-time investment in a <strong>custom erp solution</strong> you own forever.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-blue-600 font-bold">✓</span>
-                  <span>Deep <strong>custom erp integration services</strong> for real-time branch visibility.</span>
-                </li>
-              </ul>
+            <div className="relative">
+              <div className="bg-white p-16 flex flex-col justify-center">
+                <ShieldCheck size={64} className="text-aramco-teal mb-8" />
+                <h3 className="text-3xl font-black text-aramco-navy mb-6 uppercase tracking-tighter leading-none">"This is operational transformation — not software installation."</h3>
+                <p className="text-slate-400 text-[10px] uppercase tracking-[0.3em] font-black">Logic-Unit Core Belief</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Signature Framework */}
-      <section className="py-24 bg-slate-900 text-white">
+      {/* Framework Section */}
+      <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Our Operational Transformation Framework</h2>
-            <p className="text-slate-400 max-w-2xl mx-auto">A proprietary five-phase methodology for distribution excellence.</p>
+          <div className="text-center mb-24">
+            <span className="aramco-label mx-auto">The Framework</span>
+            <h2 className="text-4xl lg:text-6xl font-black text-aramco-navy mb-8 uppercase tracking-tighter">Our Operational <br />Transformation Framework</h2>
+            <p className="text-xl text-slate-500 max-w-3xl mx-auto font-medium">
+              We combine consulting depth with technical execution.
+            </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-4 relative">
+          
+          <div className="space-y-px bg-slate-200">
             {[
-              { title: 'Diagnosis', desc: 'Deep dive into current operational bottlenecks.', icon: '01' },
-              { title: 'Redesign', desc: 'Defining standardized SOPs and control points.', icon: '02' },
-              { title: 'Implementation', desc: 'System deployment and team training.', icon: '03' },
-              { title: 'Visibility', desc: 'Real-time dashboards for executive oversight.', icon: '04' },
-              { title: 'Governance', desc: 'Ongoing optimization and system refinement.', icon: '05' },
-            ].map((phase, idx) => (
-              <div key={idx} className="relative p-8 bg-slate-800 border border-slate-700 hover:border-blue-500 transition-all group">
-                <span className="text-5xl font-bold text-slate-700 mb-6 block group-hover:text-blue-600 transition-colors">{phase.icon}</span>
-                <h3 className="text-xl font-bold mb-4">{phase.title}</h3>
-                <p className="text-slate-400 text-sm">{phase.desc}</p>
+              { 
+                title: "1. Process Engineering", 
+                desc: "We map your current operations in detail: Procurement flows, Inventory movements, Sales cycles, Inter-branch transfers, Approval hierarchies, Reporting gaps. We identify inefficiencies and design a future-state workflow that supports scale.",
+                objective: "Create a structured operations framework that removes bottlenecks and supports growth."
+              },
+              { 
+                title: "2. ERP Configuration Around Your Business Model", 
+                desc: "ERP should not dictate how you work. It should support how you work — correctly. We implement and configure ERP systems specifically for distribution and trading environments, including multi-branch control, batch tracking, and purchase-to-sale integration.",
+                objective: "Governance and transparency. Not just data entry."
+              },
+              { 
+                title: "3. Workflow Automation That Removes Bottlenecks", 
+                desc: "Manual approvals slow down operations and increase risk. We automate purchase requests, credit limit validation, inventory transfers, and sales order confirmations.",
+                objective: "Policy-driven decisions, reduced dependency on individuals, faster operational cycles."
+              },
+              { 
+                title: "4. Internal Controls and Governance Systems", 
+                desc: "Growth without control creates financial and operational risk. We implement segregation of duties, role-based system access, automated audit trails, and exception reporting dashboards.",
+                objective: "Strengthen governance across your ERP environment. Operational control is about discipline."
+              },
+              { 
+                title: "5. Executive Reporting and Real-Time Visibility", 
+                desc: "Leaders need clarity. We build executive dashboards that provide real-time inventory positions, branch performance comparisons, margin tracking, and cash flow visibility.",
+                objective: "Decisions shift from reactive to strategic. You see the business clearly."
+              }
+            ].map((item, idx) => (
+              <div key={idx} className="bg-white p-16 hover:bg-aramco-gray transition-colors">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
+                  <div className="lg:col-span-2">
+                    <h3 className="text-3xl font-black text-aramco-navy uppercase tracking-tighter mb-6">{item.title}</h3>
+                    <p className="text-xl text-slate-600 leading-relaxed font-medium">{item.desc}</p>
+                  </div>
+                  <div className="bg-aramco-navy p-10 text-white flex flex-col justify-center">
+                    <span className="text-[10px] font-black uppercase tracking-[0.3em] text-white/40 mb-4">The Objective</span>
+                    <p className="text-lg font-black uppercase tracking-tighter leading-tight">{item.objective}</p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Ideal Client Profile */}
-      <section className="py-24 bg-white border-b border-slate-100">
+      {/* What Changes After Implementation */}
+      <section className="py-32 bg-aramco-gray">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-             <div className="relative aspect-video bg-slate-100 overflow-hidden">
-                <img src="https://picsum.photos/800/600?grayscale" alt="Warehouse Operation" className="w-full h-full object-cover opacity-80" />
-                <div className="absolute inset-0 bg-slate-900/10"></div>
-             </div>
-             <div>
-                <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-                  Built for Growing Distribution & Trading Businesses
-                </h2>
-                <div className="space-y-6">
-                  <p className="text-slate-600 leading-relaxed font-light">
-                    Our methodology is specifically designed for businesses that have moved past the startup phase and are facing "complexity friction."
-                  </p>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
-                        <Users size={20} />
-                      </div>
-                      <span className="text-sm font-medium text-slate-700">10–80 Employees</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
-                        <Activity size={20} />
-                      </div>
-                      <span className="text-sm font-medium text-slate-700">Multi-warehouse Ops</span>
-                    </div>
-                  </div>
-                  <ul className="space-y-3">
-                    {['Founder-led transition', 'Outgrowing Excel/Basic systems', 'Need for enterprise-grade visibility'].map((point, i) => (
-                      <li key={i} className="flex items-center gap-2 text-slate-600 text-sm">
-                        <ChevronRight size={14} className="text-blue-600" />
-                        {point}
-                      </li>
-                    ))}
-                  </ul>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+            <div>
+              <span className="aramco-label">The Outcome</span>
+              <h2 className="text-4xl lg:text-6xl font-black text-aramco-navy mb-10 uppercase tracking-tighter leading-none">
+                What Changes After <br />Implementation
+              </h2>
+              <p className="text-xl text-slate-600 mb-12 leading-relaxed font-medium">
+                When structure replaces chaos, the shift is visible. Inventory discrepancies reduce. Approvals move faster. Owners step out of daily bottlenecks. Data becomes reliable. Branches align operationally.
+              </p>
+              <div className="bg-aramco-navy p-12 text-white">
+                <h3 className="text-3xl font-black uppercase tracking-tighter mb-4">Most importantly:</h3>
+                <p className="text-4xl font-black text-aramco-teal uppercase tracking-tighter">The business <br />becomes scalable.</p>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 gap-4">
+              {[
+                'Inventory discrepancies reduce',
+                'Approvals move faster',
+                'Owners step out of daily bottlenecks',
+                'Data becomes reliable',
+                'Branches align operationally'
+              ].map((point, i) => (
+                <div key={i} className="flex items-center gap-6 bg-white p-8 border-l-4 border-aramco-teal shadow-sm">
+                  <CheckCircle2 className="text-aramco-teal w-8 h-8 shrink-0" />
+                  <span className="text-lg font-black uppercase tracking-widest text-aramco-navy">{point}</span>
                 </div>
-             </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Engagement Model */}
-      <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4">Long-Term Operational Partnership</h2>
-          <p className="text-slate-600 mb-12 max-w-2xl mx-auto">We don't do "one-and-done" projects. We build the engine and stay to help you tune it.</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="p-10 border border-slate-100 shadow-sm text-left">
-              <h3 className="text-xl font-bold mb-4 text-slate-900 uppercase tracking-tight">Phase I: Implementation</h3>
-              <p className="text-slate-600 text-sm leading-relaxed mb-6">
-                Intensive 3-6 month transformation project focused on core process redesign and system setup.
-              </p>
-              <ul className="text-xs space-y-2 text-slate-500 uppercase tracking-widest font-semibold">
-                <li>• Process Mapping</li>
-                <li>• ERP Configuration</li>
-                <li>• Master Data Cleaning</li>
-              </ul>
-            </div>
-            <div className="p-10 bg-slate-900 text-white text-left">
-              <h3 className="text-xl font-bold mb-4 uppercase tracking-tight">Phase II: Optimization</h3>
-              <p className="text-slate-300 text-sm leading-relaxed mb-6">
-                Ongoing advisory retainer to ensure the system evolves with your growth.
-              </p>
-              <ul className="text-xs space-y-2 text-slate-400 uppercase tracking-widest font-semibold">
-                <li>• Monthly System Audits</li>
-                <li>• Dashboard Refinement</li>
-                <li>• Team Competency Coaching</li>
-              </ul>
-            </div>
+      {/* Why Choose Us */}
+      <section className="py-32 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-24">
+            <span className="aramco-label mx-auto">Our Identity</span>
+            <h2 className="text-4xl lg:text-6xl font-black text-aramco-navy mb-8 uppercase tracking-tighter">Why Distribution and Trading <br />Businesses Choose Logic-Unit</h2>
+            <p className="text-xl text-slate-500 max-w-3xl mx-auto font-medium">
+              We are not a generic software company. We are operational architects.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-px bg-slate-200">
+            {[
+              { title: 'Distribution Workflows', desc: 'Deep understanding of high-volume inventory and trading operations.' },
+              { title: 'ERP Expertise', desc: 'Technical mastery of ERP implementation and configuration.' },
+              { title: 'Process Redesign', desc: 'Capability to engineer workflows that support growth.' },
+              { title: 'Internal Controls', desc: 'Experience in structuring governance and governance systems.' }
+            ].map((item, idx) => (
+              <div key={idx} className="p-12 bg-white hover:bg-aramco-navy group transition-colors">
+                <h4 className="font-black text-aramco-navy mb-6 uppercase text-xs tracking-[0.2em] group-hover:text-aramco-teal">{item.title}</h4>
+                <p className="text-slate-500 text-sm leading-relaxed font-medium group-hover:text-white/60">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-24 text-center">
+            <p className="text-xl text-slate-600 font-medium max-w-3xl mx-auto">
+              We work directly with decision-makers. We ask difficult operational questions. And we design systems that last.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-32 bg-aramco-gray">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <span className="aramco-label mx-auto">FAQ</span>
+            <h2 className="text-4xl lg:text-5xl font-black text-aramco-navy mb-8 uppercase tracking-tighter">Frequently Asked Questions</h2>
+          </div>
+          
+          <div className="space-y-8">
+            {[
+              { 
+                q: "What is ERP for distribution companies?", 
+                a: "It is a structured business management system that integrates inventory, procurement, sales, reporting, and internal controls across branches." 
+              },
+              { 
+                q: "Why do trading businesses lose operational control?", 
+                a: "Because growth increases complexity without increasing structure. Informal processes cannot scale." 
+              },
+              { 
+                q: "Can ERP solve inventory mismatches?", 
+                a: "Only when configured correctly with validation rules, workflow automation, and internal controls." 
+              },
+              { 
+                q: "How do we reduce dependency on owners?", 
+                a: "By implementing role-based approvals, automated workflows, and structured reporting systems." 
+              }
+            ].map((faq, idx) => (
+              <div key={idx} className="bg-white p-12 border border-slate-100">
+                <h4 className="text-xl font-black text-aramco-navy uppercase tracking-tighter mb-4">{faq.q}</h4>
+                <p className="text-lg text-slate-600 font-medium leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Direct Message */}
+      <section className="py-32 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <span className="aramco-label mx-auto">Direct Dialogue</span>
+          <h2 className="text-4xl lg:text-6xl font-black text-aramco-navy mb-12 uppercase tracking-tighter">A Direct Message to <br />Business Owners</h2>
+          <div className="space-y-8 text-2xl text-slate-600 font-medium leading-relaxed">
+            <p>If your business feels heavier as it grows, you are not alone.</p>
+            <p>Growth without structure creates operational stress.</p>
+            <p>You do not need more spreadsheets.</p>
+            <p className="text-aramco-navy font-black uppercase tracking-tighter text-4xl">You need a system that supports scale. <br />We help you build it.</p>
           </div>
         </div>
       </section>
 
       {/* Final CTA */}
-      <section className="py-24 bg-slate-50">
+      <section className="py-32 bg-aramco-gray">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-slate-900 mb-6">Evaluate Your Operational Control</h2>
-          <p className="text-xl text-slate-600 mb-10 font-light">
-            Take the first step toward structured operations with a professional diagnostic of your current processes and systems.
+          <span className="aramco-label mx-auto">Next Steps</span>
+          <h2 className="text-4xl lg:text-5xl font-black text-aramco-navy mb-8 uppercase tracking-tighter">Start With an <br />Operational Assessment</h2>
+          <p className="text-xl text-slate-600 mb-12 font-medium leading-relaxed">
+            We begin with a structured operational review to identify process gaps, control weaknesses, and reporting blind spots.
           </p>
-          <Link
-            to="/contact"
-            className="inline-flex items-center gap-2 bg-slate-900 text-white px-10 py-5 text-lg font-medium hover:bg-slate-800 transition-all rounded-sm shadow-xl"
-          >
-            Request Operational Audit <ArrowRight size={20} />
+          <Link to="/contact" className="btn-aramco-primary text-lg px-12 py-6">
+            Request Operational Audit
           </Link>
+          <p className="mt-12 text-sm font-black text-slate-400 uppercase tracking-[0.3em]">Operational control is not optional. It is foundational.</p>
         </div>
       </section>
     </div>
