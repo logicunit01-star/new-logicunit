@@ -1,16 +1,17 @@
 
 import React from 'react';
 import { CheckCircle2, ArrowRight } from 'lucide-react';
-
+import Image from 'next/image';
+import experienceImg from "../../assets/images/experience.jpg";
 const Experience: React.FC = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://picsum.photos/seed/operational-depth/1920/1080?grayscale" 
-            alt="Operational Depth" 
+          <Image
+            src={experienceImg}
+            alt="Operational Depth"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />

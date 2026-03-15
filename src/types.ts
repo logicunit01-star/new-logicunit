@@ -6,6 +6,7 @@ export interface AuditForm {
   currentSystem: string;
   mainChallenge: string;
   email: string;
+  phoneNumber: string;
 }
 
 export interface AuditResult {

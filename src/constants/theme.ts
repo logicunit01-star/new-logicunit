@@ -1,12 +1,12 @@
 export const THEME = {
   colors: {
-    primary: '#00502C',
-    secondary: '#78BE20',
-    dark: '#1A1A1A',
-    light: '#F5F5F0',
-    border: '#E8E8E0',
-    textMain: '#1A1A1A',
-    textMuted: '#555555',
+    primary: '#0062B2',
+    secondary: '#75BF2A',
+    dark: '#0D1B2A',
+    light: '#F4F7FB',
+    border: '#D6E4F0',
+    textMain: '#0D1B2A',
+    textMuted: '#4A6080',
   },
   logo: {
     char: 'L',

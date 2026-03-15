@@ -1,16 +1,17 @@
 
 import React from 'react';
 import { Package, Truck, Factory, Building2, Briefcase, CheckCircle2, ChevronRight } from 'lucide-react';
-
+import Image from 'next/image';
+import industriesImg from "../../assets/images/industry.jpg";
 const Industries: React.FC = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://picsum.photos/seed/industries-work/1920/1080?grayscale" 
-            alt="Industries" 
+          <Image
+            src={industriesImg}
+            alt="Industries"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />
@@ -111,9 +112,9 @@ const Industries: React.FC = () => {
               </div>
             </div>
             <div className="flex-shrink-0 text-center lg:text-right relative z-10">
-               <p className="text-[10px] uppercase tracking-[0.3em] text-slate-500 mb-6 font-black">Specialized For</p>
-               <p className="text-5xl font-black text-white mb-8 tracking-tighter uppercase leading-none">Pakistan <br />SME Sector</p>
-               <p className="text-slate-400 text-lg font-medium max-w-xs lg:ml-auto leading-relaxed">Localized for specific regional trading practices and tax compliance.</p>
+              <p className="text-[10px] uppercase tracking-[0.3em] text-slate-500 mb-6 font-black">Specialized For</p>
+              <p className="text-5xl font-black text-white mb-8 tracking-tighter uppercase leading-none">Pakistan <br />SME Sector</p>
+              <p className="text-slate-400 text-lg font-medium max-w-xs lg:ml-auto leading-relaxed">Localized for specific regional trading practices and tax compliance.</p>
             </div>
           </div>
         </div>

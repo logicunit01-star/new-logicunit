@@ -2,16 +2,18 @@
 import React from 'react';
 import Link from 'next/link';
 import { Database, Server, RefreshCw, BarChart4, ClipboardCheck, ArrowRight, Workflow, CheckCircle2, Target, TrendingUp, ChevronRight } from 'lucide-react';
-
+import Image from 'next/image';
+import erpImg from "../../assets/images/erp-solutions.jpg";
+import StrategicDecisionImg from "../../assets/images/strategic-decision.jpg";
 const ERP: React.FC = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://picsum.photos/seed/erp-systems/1920/1080?grayscale" 
-            alt="ERP Systems" 
+          <Image
+            src={erpImg}
+            alt="ERP Systems"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
           />
@@ -36,7 +38,7 @@ const ERP: React.FC = () => {
             <h2 className="text-4xl lg:text-5xl font-black text-aramco-navy mb-6 uppercase tracking-tighter">Why Operational Control <br />Trumps Generic ERP</h2>
             <p className="text-slate-500 max-w-2xl mx-auto font-medium">Software is just a tool. <strong>Operational control is the objective</strong>. We configure systems that mirror your business model.</p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-slate-200">
             <div className="p-16 bg-white hover:bg-aramco-gray transition-colors">
               <div className="w-16 h-16 bg-aramco-teal text-white flex items-center justify-center mb-10">
@@ -118,21 +120,23 @@ const ERP: React.FC = () => {
                   { label: 'Competitive Edge', custom: 'Unique proprietary workflows', off: 'Same tools as competitors' },
                   { label: 'Integration', custom: 'Native & Seamless', off: 'Complex & Fragile' },
                 ].map((row, i) => (
-                  <div key={i} className="flex flex-col sm:flex-row sm:items-center justify-between p-8 bg-aramco-gray">
-                    <span className="font-black text-aramco-navy text-[10px] uppercase tracking-[0.3em] mb-4 sm:mb-0">{row.label}</span>
-                    <div className="flex flex-col sm:flex-row gap-4 sm:gap-12 text-sm">
-                      <span className="text-aramco-teal font-black uppercase tracking-widest text-xs">Custom: {row.custom}</span>
-                      <span className="text-slate-400 font-black uppercase tracking-widest text-xs">Off-the-shelf: {row.off}</span>
+                  <div key={i} className="flex flex-row sm:flex-row sm:items-center justify-between p-8 bg-aramco-gray">
+                    <div><span className="font-black text-aramco-navy text-[10px] uppercase tracking-[0.3em] mb-4 sm:mb-0">{row.label}</span>
+                      <div className="flex flex-col sm:flex-row gap-4 sm:gap-12 text-sm">
+                        <span className="text-aramco-teal font-black uppercase tracking-widest text-xs">Custom: {row.custom}</span>
+
+                      </div>
                     </div>
+                    <span className="text-slate-400 font-black uppercase tracking-widest text-xs">Off-the-shelf: {row.off}</span>
                   </div>
                 ))}
               </div>
             </div>
             <div className="relative">
               <div className="aspect-square bg-white shadow-2xl overflow-hidden">
-                <img 
-                  src="https://picsum.photos/seed/erp-dev/1000/1000?grayscale" 
-                  alt="Custom ERP Software Development" 
+                <Image
+                  src={StrategicDecisionImg}
+                  alt="Custom ERP Software Development"
                   className="w-full h-full object-cover opacity-90"
                   referrerPolicy="no-referrer"
                 />
@@ -150,7 +154,7 @@ const ERP: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <span className="aramco-label text-white/40 mx-auto">Impact</span>
-            <h2 className="text-4xl lg:text-5xl font-black mb-8 uppercase tracking-tighter">What Changes After <br />Structured Control</h2>
+            <h2 className="text-4xl lg:text-5xl font-black text-white mb-8 uppercase tracking-tighter">What Changes After <br />Structured Control</h2>
             <p className="text-xl text-slate-400 max-w-2xl mx-auto font-medium">When operational structure is restored, the impact is measurable and immediate.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/10">
@@ -177,18 +181,18 @@ const ERP: React.FC = () => {
       {/* Final CTA */}
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-           <div className="flex flex-col lg:flex-row justify-between items-center gap-24">
-             <div className="max-w-3xl">
-               <span className="aramco-label">Next Steps</span>
-               <h2 className="text-4xl lg:text-5xl font-black text-aramco-navy mb-8 uppercase tracking-tighter">Custom ERP is the <br />Tool, Not the Goal</h2>
-               <p className="text-xl text-slate-600 font-medium leading-relaxed">
-                 A <strong>customized erp</strong> without structure is just a digital version of the chaos you already have. Let our <strong>custom erp development services</strong> help you build a foundation that actually lasts.
-               </p>
-             </div>
-             <Link href="/contact" className="btn-aramco-primary text-lg px-12 py-6 whitespace-nowrap">
-               Discuss System Requirements
-             </Link>
-           </div>
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-24">
+            <div className="max-w-3xl">
+              <span className="aramco-label">Next Steps</span>
+              <h2 className="text-4xl lg:text-5xl font-black mb-8 uppercase tracking-tighter">Custom ERP is the <br />Tool, Not the Goal</h2>
+              <p className="text-xl text-slate-600 font-medium leading-relaxed">
+                A <strong>customized erp</strong> without structure is just a digital version of the chaos you already have. Let our <strong>custom erp development services</strong> help you build a foundation that actually lasts.
+              </p>
+            </div>
+            <Link href="/contact" className="btn-aramco-primary text-lg px-12 py-6 whitespace-nowrap">
+              Discuss System Requirements
+            </Link>
+          </div>
         </div>
       </section>
     </div>
