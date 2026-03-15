@@ -100,7 +100,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Knowledge Hub */}
-      <section className="py-32 bg-white">
+      {/* <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-12">
             <div className="max-w-2xl">
@@ -145,7 +145,7 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

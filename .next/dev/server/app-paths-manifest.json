@@ -1,4 +1,9 @@
 {
+  "/about/page": "app/about/page.js",
   "/contact/page": "app/contact/page.js",
-  "/industries/page": "app/industries/page.js"
+  "/experience/page": "app/experience/page.js",
+  "/industries/page": "app/industries/page.js",
+  "/systems/page": "app/systems/page.js",
+  "/transformation/page": "app/transformation/page.js",
+  "/why-choose-us/page": "app/why-choose-us/page.js"
 }

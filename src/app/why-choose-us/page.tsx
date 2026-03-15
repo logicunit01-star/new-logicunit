@@ -3,7 +3,7 @@ import React from 'react';
 import { CheckCircle2, ArrowRight, XCircle } from 'lucide-react';
 import Image from 'next/image';
 import whyChooseUsImg from "../../assets/images/whyChoose.jpg";
-
+import advantageImg from "../../assets/images/advantage.jpg";
 
 const WhyChooseUs: React.FC = () => {
   return (
@@ -102,8 +102,8 @@ const WhyChooseUs: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
             <div className="order-2 lg:order-1">
-              <img
-                src="https://picsum.photos/seed/advantage-ops/800/600?grayscale"
+              <Image
+                src={advantageImg}
                 alt="Advantage"
                 className="w-full h-full object-cover shadow-2xl"
                 referrerPolicy="no-referrer"
@@ -142,7 +142,7 @@ const WhyChooseUs: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mb-24">
             <span className="aramco-label text-white/40">Alignment</span>
-            <h2 className="text-4xl lg:text-6xl font-black mb-10 uppercase tracking-tighter leading-none">Structured Control <br />Over Generic Customization</h2>
+            <h2 className="text-4xl lg:text-6xl font-black mb-10 uppercase tracking-tighter text-white leading-none">Structured Control <br />Over Generic Customization</h2>
             <p className="text-xl text-slate-400 leading-relaxed font-medium">
               Many providers talk about customization. We focus on alignment. Alignment between process and system, responsibility and authority, inventory and financial reporting, growth and governance.
             </p>

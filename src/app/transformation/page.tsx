@@ -205,7 +205,7 @@ const Transformation: React.FC = () => {
       <section className="py-32 bg-[#0D1B2A] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="aramco-label text-white/40 mx-auto">Results</span>
-          <h2 className="text-4xl lg:text-6xl font-black mb-24 uppercase tracking-tighter">The Measurable Impact</h2>
+          <h2 className="text-4xl lg:text-6xl font-black mb-24 text-white uppercase tracking-tighter">The Measurable Impact</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-24">
             <div>
               <TrendingUp className="mx-auto mb-10 text-[#75BF2A]" size={64} />
