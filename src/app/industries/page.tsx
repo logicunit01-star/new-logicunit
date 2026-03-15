@@ -98,7 +98,7 @@ const Industries: React.FC = () => {
             <div className="absolute inset-0 aramco-gradient opacity-10"></div>
             <div className="flex-1 relative z-10">
               <span className="aramco-label text-white/40">Financial Control</span>
-              <h2 className="text-4xl lg:text-5xl font-black mb-10 uppercase tracking-tighter leading-none">Addressing the <br />"Cash Cycle Gap"</h2>
+              <h2 className="text-4xl lg:text-5xl text-white font-black mb-10 uppercase tracking-tighter leading-none">Addressing the <br />"Cash Cycle Gap"</h2>
               <p className="text-xl text-slate-400 mb-12 leading-relaxed font-medium">
                 Distribution businesses live and die by their cash cycle. We implement systems that provide 100% visibility.
               </p>

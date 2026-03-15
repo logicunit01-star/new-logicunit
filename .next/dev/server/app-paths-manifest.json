@@ -1,11 +1,4 @@
 {
-  "/about/page": "app/about/page.js",
-  "/api/audit/route": "app/api/audit/route.js",
   "/contact/page": "app/contact/page.js",
-  "/experience/page": "app/experience/page.js",
-  "/industries/page": "app/industries/page.js",
-  "/page": "app/page.js",
-  "/systems/page": "app/systems/page.js",
-  "/transformation/page": "app/transformation/page.js",
-  "/why-choose-us/page": "app/why-choose-us/page.js"
+  "/industries/page": "app/industries/page.js"
 }
