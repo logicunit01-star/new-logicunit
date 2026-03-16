@@ -96,14 +96,14 @@ const Transformation: React.FC = () => {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Remove Duplication</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Clarify Responsibilities</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Reduce Approval Layers</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Remove Duplication</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Clarify Responsibilities</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Reduce Approval Layers</li>
                 </ul>
                 <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Strengthen Accountability</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Support Scale</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Define Future SOPs</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Strengthen Accountability</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Support Scale</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Define Future SOPs</li>
                 </ul>
               </div>
             </div>
@@ -116,14 +116,14 @@ const Transformation: React.FC = () => {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Multi-branch Control</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Real-time Accuracy</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Structured Approval</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Multi-branch Control</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Real-time Accuracy</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Structured Approval</li>
                 </ul>
                 <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Controlled Access</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Automated Validation</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Data Consistency</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Controlled Access</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Automated Validation</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Data Consistency</li>
                 </ul>
               </div>
             </div>
@@ -136,12 +136,12 @@ const Transformation: React.FC = () => {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Follow Policy Automatically</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Escalate Intelligently</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Follow Policy Automatically</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Escalate Intelligently</li>
                 </ul>
                 <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Reduce Involvement</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Traceable Records</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Reduce Involvement</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Traceable Records</li>
                 </ul>
               </div>
             </div>
@@ -154,13 +154,13 @@ const Transformation: React.FC = () => {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Segregation of Duties</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Role-based Permissions</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Validation Checks</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Segregation of Duties</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Role-based Permissions</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Validation Checks</li>
                 </ul>
                 <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Audit-ready Logs</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-[#0062B2] group-hover:text-white" /> Exception Monitoring</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Audit-ready Logs</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-3 text-[#0062B2] group-hover:text-white" /> Exception Monitoring</li>
                 </ul>
               </div>
             </div>

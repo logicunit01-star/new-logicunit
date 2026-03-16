@@ -37,9 +37,9 @@ const Industries: React.FC = () => {
               <h3 className="text-2xl font-black mb-6 text-aramco-navy group-hover:text-white uppercase tracking-tighter">Distribution Companies</h3>
               <p className="text-slate-600 group-hover:text-white/80 mb-10 leading-relaxed font-medium">Managing multi-location inventory where stock adjustments have become routine and physical counts rarely match reports.</p>
               <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Multi-branch Inventory</li>
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Real-time Reconciliation</li>
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Movement Logs</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" />Multi-branch Inventory</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" />Real-time Reconciliation</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" />Movement Logs</li>
               </ul>
             </div>
             <div className="bg-white p-16 hover:bg-aramco-teal group transition-colors">
@@ -47,9 +47,9 @@ const Industries: React.FC = () => {
               <h3 className="text-2xl font-black mb-6 text-aramco-navy group-hover:text-white uppercase tracking-tighter">Trading Businesses</h3>
               <p className="text-slate-600 group-hover:text-white/80 mb-10 leading-relaxed font-medium">Coordinating complex procurement and resale where decisions depend on availability and manual approval chains.</p>
               <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Workflow Automation</li>
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Landed Cost Accuracy</li>
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Margin Visibility</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Workflow Automation</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Landed Cost Accuracy</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Margin Visibility</li>
               </ul>
             </div>
             <div className="bg-white p-16 hover:bg-aramco-teal group transition-colors">
@@ -57,9 +57,9 @@ const Industries: React.FC = () => {
               <h3 className="text-2xl font-black mb-6 text-aramco-navy group-hover:text-white uppercase tracking-tighter">Wholesale Operations</h3>
               <p className="text-slate-600 group-hover:text-white/80 mb-10 leading-relaxed font-medium">Scaling beyond informal systems where critical data lives in personal spreadsheets and version control has disappeared.</p>
               <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Centralized Master Data</li>
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Credit Enforcement</li>
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Sales Productivity</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Centralized Master Data</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Credit Enforcement</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Sales Productivity</li>
               </ul>
             </div>
             <div className="bg-white p-16 hover:bg-aramco-teal group transition-colors">
@@ -67,9 +67,9 @@ const Industries: React.FC = () => {
               <h3 className="text-2xl font-black mb-6 text-aramco-navy group-hover:text-white uppercase tracking-tighter">Owner-Led Companies</h3>
               <p className="text-slate-600 group-hover:text-white/80 mb-10 leading-relaxed font-medium">Transitioning into structured organizations where owners shift from daily firefighting to strategic leadership.</p>
               <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Role-based Governance</li>
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Exception Monitoring</li>
-                <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Executive Dashboards</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Role-based Governance</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Exception Monitoring</li>
+                <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Executive Dashboards</li>
               </ul>
             </div>
             <div className="bg-white p-16 hover:bg-aramco-teal group transition-colors lg:col-span-2">
@@ -78,12 +78,12 @@ const Industries: React.FC = () => {
               <p className="text-slate-600 group-hover:text-white/80 mb-10 leading-relaxed font-medium">Managing bulky inventory and complex SKU catalogs where margin sensitivity and procurement complexity are high.</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Technical SKU Management</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Multi-tier Pricing</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Technical SKU Management</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Multi-tier Pricing</li>
                 </ul>
                 <ul className="space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black">
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Reorder Optimization</li>
-                  <li className="flex items-center"><ChevronRight size={12} className="mr-3 text-aramco-teal group-hover:text-white" /> Project Cost Centers</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Reorder Optimization</li>
+                  <li className="flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white"><ChevronRight size={10} className="mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white" /> Project Cost Centers</li>
                 </ul>
               </div>
             </div>

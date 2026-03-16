@@ -176,17 +176,17 @@ const Industries = ()=>{
                                         className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 40,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    " Multi-branch Inventory"
+                                                    "Multi-branch Inventory"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/industries/page.tsx",
@@ -194,17 +194,17 @@ const Industries = ()=>{
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 41,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    " Real-time Reconciliation"
+                                                    "Real-time Reconciliation"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/industries/page.tsx",
@@ -212,17 +212,17 @@ const Industries = ()=>{
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 42,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    " Movement Logs"
+                                                    "Movement Logs"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/industries/page.tsx",
@@ -272,15 +272,15 @@ const Industries = ()=>{
                                         className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 50,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     " Workflow Automation"
                                                 ]
@@ -290,15 +290,15 @@ const Industries = ()=>{
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 51,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     " Landed Cost Accuracy"
                                                 ]
@@ -308,15 +308,15 @@ const Industries = ()=>{
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 52,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     " Margin Visibility"
                                                 ]
@@ -368,15 +368,15 @@ const Industries = ()=>{
                                         className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 60,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     " Centralized Master Data"
                                                 ]
@@ -386,15 +386,15 @@ const Industries = ()=>{
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 61,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     " Credit Enforcement"
                                                 ]
@@ -404,15 +404,15 @@ const Industries = ()=>{
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 62,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     " Sales Productivity"
                                                 ]
@@ -464,15 +464,15 @@ const Industries = ()=>{
                                         className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 70,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     " Role-based Governance"
                                                 ]
@@ -482,15 +482,15 @@ const Industries = ()=>{
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 71,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     " Exception Monitoring"
                                                 ]
@@ -500,15 +500,15 @@ const Industries = ()=>{
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "flex items-center",
+                                                className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                        size: 12,
-                                                        className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                        size: 10,
+                                                        className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/industries/page.tsx",
                                                         lineNumber: 72,
-                                                        columnNumber: 51
+                                                        columnNumber: 153
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     " Executive Dashboards"
                                                 ]
@@ -563,15 +563,15 @@ const Industries = ()=>{
                                                 className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center",
+                                                        className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                size: 12,
-                                                                className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                                size: 10,
+                                                                className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/industries/page.tsx",
                                                                 lineNumber: 81,
-                                                                columnNumber: 53
+                                                                columnNumber: 155
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             " Technical SKU Management"
                                                         ]
@@ -581,15 +581,15 @@ const Industries = ()=>{
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center",
+                                                        className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                size: 12,
-                                                                className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                                size: 10,
+                                                                className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/industries/page.tsx",
                                                                 lineNumber: 82,
-                                                                columnNumber: 53
+                                                                columnNumber: 155
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             " Multi-tier Pricing"
                                                         ]
@@ -608,15 +608,15 @@ const Industries = ()=>{
                                                 className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center",
+                                                        className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                size: 12,
-                                                                className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                                size: 10,
+                                                                className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/industries/page.tsx",
                                                                 lineNumber: 85,
-                                                                columnNumber: 53
+                                                                columnNumber: 155
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             " Reorder Optimization"
                                                         ]
@@ -626,15 +626,15 @@ const Industries = ()=>{
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "flex items-center",
+                                                        className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                size: 12,
-                                                                className: "mr-3 text-aramco-teal group-hover:text-white"
+                                                                size: 10,
+                                                                className: "mr-2 text-aramco-teal transition-colors duration-300 group-hover:text-white"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/industries/page.tsx",
                                                                 lineNumber: 86,
-                                                                columnNumber: 53
+                                                                columnNumber: 155
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             " Project Cost Centers"
                                                         ]

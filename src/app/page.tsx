@@ -185,58 +185,113 @@ const Home: React.FC = () => {
       </section>
 
       {/* Framework Section */}
-      <section className="py-32 bg-white">
+      <section className="py-32 bg-[#F8FAFC]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <span className="aramco-label mx-auto">The Framework</span>
-            <h2 className="text-4xl lg:text-5xl font-bold text-[#0D1B2A] mb-6 leading-tight tracking-tight">Our Operational <br />Transformation Framework</h2>
-            <p className="text-base text-[#6B84A0] max-w-2xl mx-auto">
-              We combine consulting depth with technical execution.
-            </p>
+
+          {/* Header */}
+          <div className="mb-24">
+            <span className="aramco-label">The Framework</span>
+            <div className="mt-6 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+              <h2 className="text-5xl lg:text-6xl font-black text-[#0D1B2A] leading-[1.05] tracking-tight max-w-xl">
+                Operational Transformation Framework
+              </h2>
+              <p className="text-sm text-[#6B84A0] max-w-xs leading-relaxed lg:mb-2 lg:text-right">
+                We combine consulting depth<br />with technical execution.
+              </p>
+            </div>
+            {/* Full-width rule */}
+            <div className="mt-10 h-px bg-[#D6E4F0]" />
           </div>
 
-          <div className="space-y-px bg-[#D6E4F0]">
+          {/* Sticky stacking cards */}
+          <div className="relative">
             {[
               {
-                title: "1. Process Engineering",
+                title: "Process Engineering",
                 desc: "We map your current operations in detail: Procurement flows, Inventory movements, Sales cycles, Inter-branch transfers, Approval hierarchies, Reporting gaps. We identify inefficiencies and design a future-state workflow that supports scale.",
                 objective: "Create a structured operations framework that removes bottlenecks and supports growth."
               },
               {
-                title: "2. ERP Configuration Around Your Business Model",
+                title: "ERP Configuration Around Your Business Model",
                 desc: "ERP should not dictate how you work. It should support how you work — correctly. We implement and configure ERP systems specifically for distribution and trading environments, including multi-branch control, batch tracking, and purchase-to-sale integration.",
                 objective: "Governance and transparency. Not just data entry."
               },
               {
-                title: "3. Workflow Automation That Removes Bottlenecks",
+                title: "Workflow Automation That Removes Bottlenecks",
                 desc: "Manual approvals slow down operations and increase risk. We automate purchase requests, credit limit validation, inventory transfers, and sales order confirmations.",
                 objective: "Policy-driven decisions, reduced dependency on individuals, faster operational cycles."
               },
               {
-                title: "4. Internal Controls and Governance Systems",
+                title: "Internal Controls and Governance Systems",
                 desc: "Growth without control creates financial and operational risk. We implement segregation of duties, role-based system access, automated audit trails, and exception reporting dashboards.",
                 objective: "Strengthen governance across your ERP environment. Operational control is about discipline."
               },
               {
-                title: "5. Executive Reporting and Real-Time Visibility",
+                title: "Executive Reporting and Real-Time Visibility",
                 desc: "Leaders need clarity. We build executive dashboards that provide real-time inventory positions, branch performance comparisons, margin tracking, and cash flow visibility.",
                 objective: "Decisions shift from reactive to strategic. You see the business clearly."
               }
-            ].map((item, idx) => (
-              <div key={idx} className="bg-white p-12 hover:bg-[#F4F7FB] transition-all group">
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-                  <div className="lg:col-span-2">
-                    <h3 className="text-xl font-bold text-[#0D1B2A] leading-tight mb-5 group-hover:text-[#0062B2] transition-colors">{item.title}</h3>
-                    <p className="text-base text-[#4A6080] leading-relaxed">{item.desc}</p>
+            ].map((item, idx, arr) => (
+              <div
+                key={idx}
+                className="sticky group overflow-hidden"
+                style={{
+                  top: `${idx * 52}px`,
+                  zIndex: idx + 1,
+                }}
+              >
+                {/* Top accent bar — only visible on hover */}
+                <div className="h-[3px] bg-gradient-to-r from-[#0062B2] to-[#00A3E0] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+                <div className="grid grid-cols-1 lg:grid-cols-12 bg-white shadow-[0_4px_24px_-4px_rgba(0,98,178,0.08)] border border-[#E8F0F8] rounded-xl overflow-hidden">
+
+                  {/* Step number — narrow left column */}
+                  <div className="hidden lg:flex lg:col-span-1 flex-col items-center justify-center py-10 border-r border-[#E8F0F8] bg-[#F8FAFC]">
+                    <span className="text-[11px] font-black tracking-[0.2em] text-[#0062B2]/40 uppercase [writing-mode:vertical-rl] rotate-180">
+                      {String(idx + 1).padStart(2, "0")}
+                    </span>
                   </div>
-                  <div className="bg-[#0062B2] p-10 text-white flex flex-col justify-center">
-                    <span className="text-[9px] font-bold tracking-[0.25em] text-white/40 mb-4 uppercase">The Objective</span>
-                    <p className="text-sm font-semibold leading-relaxed">{item.objective}</p>
+
+                  {/* Main content */}
+                  <div className="lg:col-span-7 p-10 lg:p-12 group-hover:bg-[#FAFCFF] transition-colors duration-300">
+                    {/* Mobile step number */}
+                    <span className="lg:hidden text-[9px] font-black tracking-[0.3em] text-[#0062B2]/40 uppercase mb-3 block">
+                      {String(idx + 1).padStart(2, "0")} / {String(arr.length).padStart(2, "0")}
+                    </span>
+                    <h3 className="text-lg lg:text-xl font-black text-[#0D1B2A] leading-snug mb-5 group-hover:text-[#0062B2] transition-colors duration-300">
+                      {item.title}
+                    </h3>
+                    <p className="text-[15px] text-[#4A6080] leading-relaxed">{item.desc}</p>
                   </div>
+
+                  {/* Objective panel */}
+                  <div className="lg:col-span-4 relative bg-[#0062B2] p-10 lg:p-12 text-white flex flex-col justify-center overflow-hidden">
+                    {/* Background texture */}
+                    <div className="absolute inset-0 opacity-[0.04]"
+                      style={{
+                        backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
+                        backgroundSize: "24px 24px"
+                      }}
+                    />
+                    <div className="relative z-10">
+                      <span className="text-[9px] font-black tracking-[0.3em] text-white/40 uppercase mb-5 block">
+                        The Objective
+                      </span>
+                      {/* Teal rule */}
+                      <div className="w-8 h-[2px] bg-white/20 mb-5" />
+                      <p className="text-[15px] font-semibold leading-relaxed text-white/90">
+                        {item.objective}
+                      </p>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             ))}
+
+            <div style={{ height: `${4 * 52}px` }} />
           </div>
+
         </div>
       </section>
 
@@ -347,14 +402,48 @@ const Home: React.FC = () => {
 
       {/* Direct Message */}
       <section className="py-32 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="aramco-label mx-auto">Direct Dialogue</span>
-          <h2 className="text-4xl lg:text-6xl font-black text-[#0D1B2A] mb-16 tracking-tight leading-tight">A Direct Message to <br />Business Owners</h2>
-          <div className="space-y-8 text-xl text-[#4A6080] leading-relaxed max-w-3xl mx-auto">
-            <p>If your business feels heavier as it grows, you are not alone.</p>
-            <p>Growth without structure creates operational stress.</p>
-            <p>You do not need more spreadsheets.</p>
-            <p className="text-[#0D1B2A] font-black text-3xl pt-4 leading-tight">You need a system that supports scale. <br />We help you build it.</p>
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          {/* Label */}
+          <span className="aramco-label">Direct Dialogue</span>
+
+          {/* Two-column layout: heading left, content right */}
+          <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+
+            {/* Left: Sticky heading */}
+            <div>
+              <h2 className="text-4xl lg:text-5xl font-black text-[#0D1B2A] tracking-tight leading-tight">
+                A Direct Message<br />
+                to Business<br />
+                Owners
+              </h2>
+              {/* Decorative rule */}
+              <div className="mt-8 w-12 h-1 bg-aramco-teal" />
+            </div>
+
+            {/* Right: Body copy */}
+            <div className="space-y-6 text-lg text-[#4A6080] leading-relaxed">
+              <p>
+                If your business feels heavier as it grows, you are not alone.
+              </p>
+              <p>
+                Growth without structure creates operational stress — missed handoffs, duplicated effort, decisions made on incomplete information.
+              </p>
+              <p>
+                More spreadsheets are not the answer.
+              </p>
+
+              {/* Divider */}
+              <div className="border-t border-slate-100 pt-6">
+                <p className="text-[#0D1B2A] font-black text-2xl leading-snug">
+                  You need a system that supports scale.
+                </p>
+                <p className="text-[#4A6080] text-lg mt-3">
+                  We help you build it — without disrupting what already works.
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>

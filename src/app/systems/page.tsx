@@ -120,14 +120,30 @@ const ERP: React.FC = () => {
                   { label: 'Competitive Edge', custom: 'Unique proprietary workflows', off: 'Same tools as competitors' },
                   { label: 'Integration', custom: 'Native & Seamless', off: 'Complex & Fragile' },
                 ].map((row, i) => (
-                  <div key={i} className="flex flex-row sm:flex-row sm:items-center justify-between p-8 bg-aramco-gray">
-                    <div><span className="font-black text-aramco-navy text-[10px] uppercase tracking-[0.3em] mb-4 sm:mb-0">{row.label}</span>
-                      <div className="flex flex-col sm:flex-row gap-4 sm:gap-12 text-sm">
-                        <span className="text-aramco-teal font-black uppercase tracking-widest text-xs">Custom: {row.custom}</span>
-
-                      </div>
+                  <div
+                    key={i}
+                    className="group flex flex-row items-center justify-between px-6 py-5 bg-white transition-all duration-200"
+                  >
+                    {/* Left: Label + Custom */}
+                    <div className="flex flex-col gap-1.5 flex-1 min-w-0 pr-4">
+                      <span className="text-[10px] font-black uppercase tracking-[0.3em] text-aramco-navy">
+                        {row.label}
+                      </span>
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-aramco-teal/10 text-aramco-teal text-[10px] font-black uppercase tracking-widest w-fit max-w-full">
+                        <span className="w-1.5 h-1.5 rounded-full bg-aramco-teal shrink-0" />
+                        <span className="truncate">Custom: {row.custom}</span>
+                      </span>
                     </div>
-                    <span className="text-slate-400 font-black uppercase tracking-widest text-xs">Off-the-shelf: {row.off}</span>
+
+                    {/* Right: Off-the-shelf */}
+                    <div className="w-[180px] shrink-0 text-right">
+                      <span className="text-[10px] font-black uppercase tracking-widest text-slate-400 block">
+                        Off-the-shelf:
+                      </span>
+                      <span className="text-[10px] font-black uppercase tracking-widest text-slate-500 block">
+                        {row.off}
+                      </span>
+                    </div>
                   </div>
                 ))}
               </div>

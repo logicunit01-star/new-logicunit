@@ -443,15 +443,15 @@ const Transformation = ()=>{
                                                     className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 99,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Remove Duplication"
                                                             ]
@@ -461,15 +461,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 100,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Clarify Responsibilities"
                                                             ]
@@ -479,15 +479,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 101,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Reduce Approval Layers"
                                                             ]
@@ -506,15 +506,15 @@ const Transformation = ()=>{
                                                     className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 104,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Strengthen Accountability"
                                                             ]
@@ -524,15 +524,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 105,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Support Scale"
                                                             ]
@@ -542,15 +542,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 106,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Define Future SOPs"
                                                             ]
@@ -603,15 +603,15 @@ const Transformation = ()=>{
                                                     className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 119,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Multi-branch Control"
                                                             ]
@@ -621,15 +621,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 120,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Real-time Accuracy"
                                                             ]
@@ -639,15 +639,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 121,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Structured Approval"
                                                             ]
@@ -666,15 +666,15 @@ const Transformation = ()=>{
                                                     className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 124,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Controlled Access"
                                                             ]
@@ -684,15 +684,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 125,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Automated Validation"
                                                             ]
@@ -702,15 +702,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 126,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Data Consistency"
                                                             ]
@@ -763,15 +763,15 @@ const Transformation = ()=>{
                                                     className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 139,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Follow Policy Automatically"
                                                             ]
@@ -781,15 +781,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 140,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Escalate Intelligently"
                                                             ]
@@ -808,15 +808,15 @@ const Transformation = ()=>{
                                                     className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 143,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Reduce Involvement"
                                                             ]
@@ -826,15 +826,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 144,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Traceable Records"
                                                             ]
@@ -887,15 +887,15 @@ const Transformation = ()=>{
                                                     className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 157,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Segregation of Duties"
                                                             ]
@@ -905,15 +905,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 158,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Role-based Permissions"
                                                             ]
@@ -923,15 +923,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 159,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Validation Checks"
                                                             ]
@@ -950,15 +950,15 @@ const Transformation = ()=>{
                                                     className: "space-y-4 text-[10px] text-slate-400 group-hover:text-white/60 uppercase tracking-[0.3em] font-black",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 162,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Audit-ready Logs"
                                                             ]
@@ -968,15 +968,15 @@ const Transformation = ()=>{
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            className: "flex items-center",
+                                                            className: "flex items-center text-xs font-medium text-gray-600 tracking-wide transition-colors duration-300 group-hover:text-white",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                    size: 12,
+                                                                    size: 10,
                                                                     className: "mr-3 text-[#0062B2] group-hover:text-white"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/transformation/page.tsx",
                                                                     lineNumber: 163,
-                                                                    columnNumber: 53
+                                                                    columnNumber: 155
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 " Exception Monitoring"
                                                             ]
