@@ -44,6 +44,75 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      <section className="py-32 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <span className="aramco-label mx-auto">The Breaking Point</span>
+            <h2 className="text-4xl lg:text-5xl font-bold text-[#0D1B2A] mb-6 leading-tight tracking-tight">What Actually Breaks When <br />Distribution Companies Grow</h2>
+            <p className="text-base text-[#6B84A0] max-w-2xl mx-auto">
+              At 5 employees, informal systems work. At 50 employees, they collapse.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-px bg-[#D6E4F0]">
+            {[
+              { title: "Inventory Mismatches", desc: "Stock numbers in the system don't match physical reality. Adjustments become normal." },
+              { title: "Excel Dependency", desc: "Critical data lives in spreadsheets owned by individuals. Version control becomes impossible." },
+              { title: "Manual Approval Bottlenecks", desc: "Purchase approvals sit in inboxes. Orders wait for sign-offs." },
+              { title: "No Real-Time Branch Visibility", desc: "Head office doesn't know what's happening daily." },
+              { title: "Owner-Dependent Decisions", desc: "Every exception requires escalation. Strategic work is replaced by operational firefighting." }
+            ].map((item, idx) => (
+              <div key={idx} className="bg-white p-10 hover:bg-[#F4F7FB] transition-all group cursor-default">
+                <span className="text-5xl font-light text-[#D6E4F0] mb-8 block group-hover:text-[#0062B2] transition-colors">0{idx + 1}</span>
+                <h4 className="text-base font-bold text-[#0D1B2A] mb-4 leading-tight">{item.title}</h4>
+                <p className="text-[#6B84A0] text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-0 bg-[#0062B2] p-16 text-center">
+            <p className="text-2xl font-bold text-white leading-relaxed">These are structural issues. <br />Installing software without redesigning operations does not solve them.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-32 bg-[#F4F7FB] overflow-hidden relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+            <div>
+              <span className="aramco-label">Our Philosophy</span>
+              <h2 className="text-4xl lg:text-5xl font-bold text-[#0D1B2A] mb-8 leading-tight tracking-tight">
+                Structure <br />Before Software
+              </h2>
+              <p className="text-base text-[#4A6080] mb-12 leading-relaxed">
+                Many ERP implementations fail because companies buy software first and ask questions later. We do the opposite. We start with structure.
+              </p>
+              <div className="space-y-6">
+                {[
+                  'Processes must be engineered before they are automated',
+                  'ERP must mirror business logic, not force artificial workflows',
+                  'Internal controls must be embedded into daily operations',
+                  'Reporting must support executive decision-making'
+                ].map((item, idx) => (
+                  <div key={idx} className="flex items-start gap-5">
+                    <div className="w-2 h-2 bg-[#0062B2] mt-2.5 shrink-0"></div>
+                    <span className="text-base font-medium text-[#1E3A5F]">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="relative">
+              <div className="bg-[#0D1B2A] p-16 flex flex-col justify-center">
+                <ShieldCheck size={48} className="text-[#75BF2A] mb-8" />
+                <h3 className="text-xl font-bold text-white mb-6 leading-relaxed">"This is operational transformation — not software installation."</h3>
+                <p className="text-[#9AAFCA] text-xs font-bold tracking-[0.2em] uppercase">Logic-Unit Core Belief</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* Intro Section: Growth Stress */}
       <section className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -109,76 +178,6 @@ const Home: React.FC = () => {
                 referrerPolicy="no-referrer"
               />
               {/* <div className="absolute inset-0 bg-[#0D1B2A]/0"></div> */}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What Actually Breaks */}
-      <section className="py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <span className="aramco-label mx-auto">The Breaking Point</span>
-            <h2 className="text-4xl lg:text-5xl font-bold text-[#0D1B2A] mb-6 leading-tight tracking-tight">What Actually Breaks When <br />Distribution Companies Grow</h2>
-            <p className="text-base text-[#6B84A0] max-w-2xl mx-auto">
-              At 5 employees, informal systems work. At 50 employees, they collapse.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-px bg-[#D6E4F0]">
-            {[
-              { title: "Inventory Mismatches", desc: "Stock numbers in the system don't match physical reality. Adjustments become normal." },
-              { title: "Excel Dependency", desc: "Critical data lives in spreadsheets owned by individuals. Version control becomes impossible." },
-              { title: "Manual Approval Bottlenecks", desc: "Purchase approvals sit in inboxes. Orders wait for sign-offs." },
-              { title: "No Real-Time Branch Visibility", desc: "Head office doesn't know what's happening daily." },
-              { title: "Owner-Dependent Decisions", desc: "Every exception requires escalation. Strategic work is replaced by operational firefighting." }
-            ].map((item, idx) => (
-              <div key={idx} className="bg-white p-10 hover:bg-[#F4F7FB] transition-all group cursor-default">
-                <span className="text-5xl font-light text-[#D6E4F0] mb-8 block group-hover:text-[#0062B2] transition-colors">0{idx + 1}</span>
-                <h4 className="text-base font-bold text-[#0D1B2A] mb-4 leading-tight">{item.title}</h4>
-                <p className="text-[#6B84A0] text-sm leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-0 bg-[#0062B2] p-16 text-center">
-            <p className="text-2xl font-bold text-white leading-relaxed">These are structural issues. <br />Installing software without redesigning operations does not solve them.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Philosophy: Structure Before Software */}
-      <section className="py-32 bg-[#F4F7FB] overflow-hidden relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-            <div>
-              <span className="aramco-label">Our Philosophy</span>
-              <h2 className="text-4xl lg:text-5xl font-bold text-[#0D1B2A] mb-8 leading-tight tracking-tight">
-                Structure <br />Before Software
-              </h2>
-              <p className="text-base text-[#4A6080] mb-12 leading-relaxed">
-                Many ERP implementations fail because companies buy software first and ask questions later. We do the opposite. We start with structure.
-              </p>
-              <div className="space-y-6">
-                {[
-                  'Processes must be engineered before they are automated',
-                  'ERP must mirror business logic, not force artificial workflows',
-                  'Internal controls must be embedded into daily operations',
-                  'Reporting must support executive decision-making'
-                ].map((item, idx) => (
-                  <div key={idx} className="flex items-start gap-5">
-                    <div className="w-2 h-2 bg-[#0062B2] mt-2.5 shrink-0"></div>
-                    <span className="text-base font-medium text-[#1E3A5F]">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="relative">
-              <div className="bg-[#0D1B2A] p-16 flex flex-col justify-center">
-                <ShieldCheck size={48} className="text-[#75BF2A] mb-8" />
-                <h3 className="text-xl font-bold text-white mb-6 leading-relaxed">"This is operational transformation — not software installation."</h3>
-                <p className="text-[#9AAFCA] text-xs font-bold tracking-[0.2em] uppercase">Logic-Unit Core Belief</p>
-              </div>
             </div>
           </div>
         </div>
